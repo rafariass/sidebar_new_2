@@ -1,0 +1,947 @@
+{
+  "version": "1.0.0",
+  "actions": [
+    {
+      "title": "Inicio",
+      "icon": "/src/assets/home.svg",
+      "route": "#",
+      "badge": null,
+      "elements": []
+    },
+    {
+      "title": "Transferencias",
+      "icon": "/src/assets/transfer_alt.svg",
+      "route": "#",
+      "badge": null,
+      "elements": [
+        {
+          "title": "Transferencias",
+          "icon": "",
+          "route": "",
+          "badge": null,
+          "elements": [
+            {
+              "title": "Transferir a terceros",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Transferir entre cuentas",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Transferir al extranjero",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            }
+          ]
+        },
+        {
+          "title": "Programar transferencias",
+          "icon": "",
+          "route": "",
+          "badge": null,
+          "elements": []
+        },
+        {
+          "title": "Cartolas",
+          "icon": "",
+          "route": "",
+          "badge": null,
+          "elements": []
+        }
+      ]
+    },
+    {
+      "title": "Pagos",
+      "icon": "/src/assets/money_managemment.svg",
+      "route": "#",
+      "badge": null,
+      "elements": [
+        {
+          "title": "Productos",
+          "icon": "",
+          "route": "",
+          "badge": null,
+          "elements": [
+            {
+              "title": "Pagar Tarjeta de Credito nacional",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Pagar Tarjeta de Credito internacional",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Pagar Línea de Crédito",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Pagar Crédito de Consumo",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Pagar Crédito Hipotecario",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            }
+          ]
+        },
+        {
+          "title": "Servicios",
+          "icon": "",
+          "route": "",
+          "badge": null,
+          "elements": [
+            {
+              "title": "Pagar Servicios",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": " Inscribir Pago Automático con Cuenta Corriente (PAC)",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Inscribir Pago Automático con Tarjeta de Crédito (PAT)",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Cuentas",
+      "icon": "/src/assets/loans_lines.svg",
+      "route": "#",
+      "badge": null,
+      "elements": [
+        {
+          "title": "Cuenta Corriente",
+          "icon": "",
+          "route": "",
+          "badge": null,
+          "elements": [
+            {
+              "title": "Ver Saldos y últimos movimientos",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Ver cartolas",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Consultar cheques",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Solicitar abono de tu sueldo",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            }
+          ]
+        },
+        {
+          "title": "Cuenta de Ahorro",
+          "icon": "",
+          "route": "",
+          "badge": null,
+          "elements": [
+            {
+              "title": "Ver saldos y últimos movimientos",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "*Aviso giro diferido",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "*Giro diferido",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            }
+          ]
+        },
+        {
+          "title": "Vale Vista",
+          "icon": "",
+          "route": "",
+          "badge": null,
+          "elements": [
+            {
+              "title": "Emitir Vale Vista",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Cobrar Vale Vista",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Consultar Vale Vista emitido",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Eliminar Vale Vista emitido",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            }
+          ]
+        },
+        {
+          "title": "Línea de Crédito",
+          "icon": "",
+          "route": "",
+          "badge": null,
+          "elements": [
+            {
+              "title": "Ver Saldos y últimos movimientos",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Ver cartolas",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Ver Liquidación de intereses",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Modificar cupo",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            }
+          ]
+        },
+        {
+          "title": "Cuenta en Dólares",
+          "icon": "",
+          "route": "",
+          "badge": null,
+          "elements": [
+            {
+              "title": "Ver Saldos y últimos movimientos",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Ver cartolas",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Comprar y Vender Dólares",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            }
+          ]
+        },
+        {
+          "title": "Cuenta Renta Diaria",
+          "icon": "",
+          "route": "",
+          "badge": null,
+          "elements": [
+            {
+              "title": "Ver Saldos y últimos movimientos",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Ver cartolas",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "*Ver Cartola intereses devengados",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Ver Transferencias",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "*Ver Transferencias sobre $ 15.000.000",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            }
+          ]
+        },
+        {
+          "title": "Cuenta AFP - Beneficios",
+          "icon": "",
+          "route": "",
+          "badge": null,
+          "elements": [
+            {
+              "title": "Ver Saldos y últimos movimientos",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Ver cartolas",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Ver Transferencias",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Tarjetas",
+      "icon": "/src/assets/debit_card.svg",
+      "route": "#",
+      "badge": null,
+      "elements": [
+        {
+          "title": "Tus tarjetas",
+          "icon": "",
+          "route": "",
+          "badge": null,
+          "elements": [
+            {
+              "title": "Consultar Tarjetas",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Ver Saldos y estados de cuenta",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Ver Movimientos facturados",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Ver Movimientos no facturados",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            }
+          ]
+        },
+        {
+          "title": "Pagos",
+          "icon": "",
+          "route": "",
+          "badge": null,
+          "elements": [
+            {
+              "title": "Pagar Monto nacional",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "pagar Monto internacional",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": " Inscribir Pago Automático con Cuenta Corriente (PAC)",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Inscribir Pago Automático con Tarjeta de Crédito (PAT)",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            }
+          ]
+        },
+        {
+          "title": "Avances en Tarjeta de Crédito",
+          "icon": "",
+          "route": "",
+          "badge": null,
+          "elements": [
+            {
+              "title": "Solicitar Avance en efectivo (en cuotas)",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Solicitar  Avance en cuotas",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            }
+          ]
+        },
+        {
+          "title": "Configuración",
+          "icon": "",
+          "route": "",
+          "badge": null,
+          "elements": [
+            {
+              "title": "Administrar Tarjetas Virtuales",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Solicitar Tarjeta de Crédito adicional",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Ver tarjetas adicionales",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Solicitar modificación de cupo",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Habilitar compras online",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Configurar claves y uso de tarjetas",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "ON/OFF tarjetas",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Bloquear y reponer tarjetas",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Activar tarjeta en el extranjero",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            }
+          ]
+        },
+        {
+          "title": "ScotiaClub",
+          "icon": "",
+          "route": "",
+          "badge": null,
+          "elements": [
+            {
+              "title": "Ingresar a ScotiaClub",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Revisar ScotiaPesos",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Ver beneficios y promociones",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Créditos",
+      "icon": "/src/assets/bills.svg",
+      "route": "#",
+      "badge": null,
+      "elements": [
+        {
+          "title": "Tus Créditos",
+          "icon": "",
+          "route": "",
+          "badge": null,
+          "elements": [
+            {
+              "title": "Ver resumen de deudas",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            }
+          ]
+        },
+        {
+          "title": "Crédito de Consumo",
+          "icon": "",
+          "route": "",
+          "badge": null,
+          "elements": [
+            {
+              "title": "Pagar cuota",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Simular y obtener crédito",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            }
+          ]
+        },
+        {
+          "title": "Crédito Hipotecario",
+          "icon": "",
+          "route": "",
+          "badge": null,
+          "elements": [
+            {
+              "title": "Pagar dividendo",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Simular y obtener crédito",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Solicitar Pre-aprobar",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Inversiones",
+      "icon": "/src/assets/investment.svg",
+      "route": "#",
+      "badge": null,
+      "elements": [
+        {
+          "title": "Tus inversiones",
+          "icon": "",
+          "route": "",
+          "badge": null,
+          "elements": [
+            {
+              "title": "Ver resumen de inversiones",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            }
+          ]
+        },
+        {
+          "title": "Metas Financieras",
+          "icon": "",
+          "route": "",
+          "badge": null,
+          "elements": [
+            {
+              "title": "Invertir en Smart NUEVO",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            }
+          ]
+        },
+        {
+          "title": "Depósitos a Plazo",
+          "icon": "",
+          "route": "",
+          "badge": null,
+          "elements": [
+            {
+              "title": "Contratar depósitos",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Consultar depósitos",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Cancelar depósitos",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            }
+          ]
+        },
+        {
+          "title": "Fondos Mutuos",
+          "icon": "",
+          "route": "",
+          "badge": null,
+          "elements": [
+            {
+              "title": "Firmar Contrato general de Fondos",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Invertir en Fondos Mutuos",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Ver Fondos Mutuos Automáticos",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Rescatar Fondos Mutuos",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Reinvertir Fondos Mutuos",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Ver saldos por cuenta",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Ver Cartolas",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Ver Certificado de Fondos Mutuos",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            }
+          ]
+        },
+        {
+          "title": "Acciones",
+          "icon": "",
+          "route": "",
+          "badge": null,
+          "elements": [
+            {
+              "title": "Ingresar a portal compra y venta",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Seguros",
+      "icon": "/src/assets/insurance.svg",
+      "route": "#",
+      "badge": null,
+      "elements": [
+        {
+          "title": "Tus Seguros contratados",
+          "icon": "",
+          "route": "",
+          "badge": null,
+          "elements": [
+            {
+              "title": "Consultar Seguros",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Consultar Siniestros",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Denunciar Siniestro de Cesantía",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            }
+          ]
+        },
+        {
+          "title": "Vida",
+          "icon": "",
+          "route": "",
+          "badge": null,
+          "elements": [
+            {
+              "title": "Contratar Seguro Vida Now",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            }
+          ]
+        },
+        {
+          "title": "Salud",
+          "icon": "",
+          "route": "",
+          "badge": null,
+          "elements": [
+            {
+              "title": "Contratar Seguro Scotia Salud",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            },
+            {
+              "title": "Contratar Seguro Protección Personal",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            }
+          ]
+        },
+        {
+          "title": "Viajes",
+          "icon": "",
+          "route": "",
+          "badge": null,
+          "elements": [
+            {
+              "title": "Contratar Seguro Scotia Travel",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            }
+          ]
+        },
+        {
+          "title": "Protección",
+          "icon": "",
+          "route": "",
+          "badge": null,
+          "elements": [
+            {
+              "title": "Contratar Seguro Robo 360",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            }
+          ]
+        },
+        {
+          "title": "Hogar",
+          "icon": "",
+          "route": "",
+          "badge": null,
+          "elements": [
+            {
+              "title": "Contratar Seguro Scotiahome Flex",
+              "icon": "",
+              "route": "",
+              "badge": null,
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Supermercado",
+      "icon": "/src/assets/shopping.svg",
+      "route": "#",
+      "badge": null,
+      "elements": []
+    },
+    {
+      "title": "Beneficios",
+      "icon": "/src/assets/rewards.svg",
+      "route": "#",
+      "badge": {
+        "text": "NUEVO",
+        "color": "#7849b8"
+      },
+      "elements": []
+    }
+  ]
+}
