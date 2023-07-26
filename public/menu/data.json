@@ -4,40 +4,40 @@
     {
       "title": "Inicio",
       "icon": "/src/assets/home.svg",
-      "route": "#",
+      "route": {},
       "badge": null,
       "elements": []
     },
     {
       "title": "Transferencias",
       "icon": "/src/assets/transfer_alt.svg",
-      "route": "#",
+      "route": {},
       "badge": null,
       "elements": [
         {
           "title": "Transferencias",
           "icon": "",
-          "route": "",
+          "route": {},
           "badge": null,
           "elements": [
             {
               "title": "Transferir a terceros",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Transferir entre cuentas",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Transferir al extranjero",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             }
@@ -46,14 +46,14 @@
         {
           "title": "Programar transferencias",
           "icon": "",
-          "route": "",
+          "route": {},
           "badge": null,
           "elements": []
         },
         {
           "title": "Cartolas",
           "icon": "",
-          "route": "",
+          "route": {},
           "badge": null,
           "elements": []
         }
@@ -62,47 +62,47 @@
     {
       "title": "Pagos",
       "icon": "/src/assets/money_managemment.svg",
-      "route": "#",
+      "route": {},
       "badge": null,
       "elements": [
         {
           "title": "Productos",
           "icon": "",
-          "route": "",
+          "route": {},
           "badge": null,
           "elements": [
             {
               "title": "Pagar Tarjeta de Credito nacional",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Pagar Tarjeta de Credito internacional",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Pagar Línea de Crédito",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Pagar Crédito de Consumo",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Pagar Crédito Hipotecario",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             }
@@ -111,27 +111,27 @@
         {
           "title": "Servicios",
           "icon": "",
-          "route": "",
+          "route": {},
           "badge": null,
           "elements": [
             {
               "title": "Pagar Servicios",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": " Inscribir Pago Automático con Cuenta Corriente (PAC)",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Inscribir Pago Automático con Tarjeta de Crédito (PAT)",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             }
@@ -142,40 +142,40 @@
     {
       "title": "Cuentas",
       "icon": "/src/assets/loans_lines.svg",
-      "route": "#",
+      "route": {},
       "badge": null,
       "elements": [
         {
           "title": "Cuenta Corriente",
           "icon": "",
-          "route": "",
+          "route": {},
           "badge": null,
           "elements": [
             {
               "title": "Ver Saldos y últimos movimientos",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Ver cartolas",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Consultar cheques",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Solicitar abono de tu sueldo",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             }
@@ -184,27 +184,27 @@
         {
           "title": "Cuenta de Ahorro",
           "icon": "",
-          "route": "",
+          "route": {},
           "badge": null,
           "elements": [
             {
               "title": "Ver saldos y últimos movimientos",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "*Aviso giro diferido",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "*Giro diferido",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             }
@@ -213,34 +213,34 @@
         {
           "title": "Vale Vista",
           "icon": "",
-          "route": "",
+          "route": {},
           "badge": null,
           "elements": [
             {
               "title": "Emitir Vale Vista",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Cobrar Vale Vista",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Consultar Vale Vista emitido",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Eliminar Vale Vista emitido",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             }
@@ -249,34 +249,34 @@
         {
           "title": "Línea de Crédito",
           "icon": "",
-          "route": "",
+          "route": {},
           "badge": null,
           "elements": [
             {
               "title": "Ver Saldos y últimos movimientos",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Ver cartolas",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Ver Liquidación de intereses",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Modificar cupo",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             }
@@ -285,27 +285,27 @@
         {
           "title": "Cuenta en Dólares",
           "icon": "",
-          "route": "",
+          "route": {},
           "badge": null,
           "elements": [
             {
               "title": "Ver Saldos y últimos movimientos",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Ver cartolas",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Comprar y Vender Dólares",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             }
@@ -314,41 +314,41 @@
         {
           "title": "Cuenta Renta Diaria",
           "icon": "",
-          "route": "",
+          "route": {},
           "badge": null,
           "elements": [
             {
               "title": "Ver Saldos y últimos movimientos",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Ver cartolas",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "*Ver Cartola intereses devengados",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Ver Transferencias",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "*Ver Transferencias sobre $ 15.000.000",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             }
@@ -357,27 +357,27 @@
         {
           "title": "Cuenta AFP - Beneficios",
           "icon": "",
-          "route": "",
+          "route": {},
           "badge": null,
           "elements": [
             {
               "title": "Ver Saldos y últimos movimientos",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Ver cartolas",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Ver Transferencias",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             }
@@ -388,40 +388,40 @@
     {
       "title": "Tarjetas",
       "icon": "/src/assets/debit_card.svg",
-      "route": "#",
+      "route": {},
       "badge": null,
       "elements": [
         {
           "title": "Tus tarjetas",
           "icon": "",
-          "route": "",
+          "route": {},
           "badge": null,
           "elements": [
             {
               "title": "Consultar Tarjetas",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Ver Saldos y estados de cuenta",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Ver Movimientos facturados",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Ver Movimientos no facturados",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             }
@@ -430,34 +430,34 @@
         {
           "title": "Pagos",
           "icon": "",
-          "route": "",
+          "route": {},
           "badge": null,
           "elements": [
             {
               "title": "Pagar Monto nacional",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "pagar Monto internacional",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": " Inscribir Pago Automático con Cuenta Corriente (PAC)",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Inscribir Pago Automático con Tarjeta de Crédito (PAT)",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             }
@@ -466,20 +466,20 @@
         {
           "title": "Avances en Tarjeta de Crédito",
           "icon": "",
-          "route": "",
+          "route": {},
           "badge": null,
           "elements": [
             {
               "title": "Solicitar Avance en efectivo (en cuotas)",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Solicitar  Avance en cuotas",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             }
@@ -488,69 +488,69 @@
         {
           "title": "Configuración",
           "icon": "",
-          "route": "",
+          "route": {},
           "badge": null,
           "elements": [
             {
               "title": "Administrar Tarjetas Virtuales",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Solicitar Tarjeta de Crédito adicional",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Ver tarjetas adicionales",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Solicitar modificación de cupo",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Habilitar compras online",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Configurar claves y uso de tarjetas",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "ON/OFF tarjetas",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Bloquear y reponer tarjetas",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Activar tarjeta en el extranjero",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             }
@@ -559,27 +559,27 @@
         {
           "title": "ScotiaClub",
           "icon": "",
-          "route": "",
+          "route": {},
           "badge": null,
           "elements": [
             {
               "title": "Ingresar a ScotiaClub",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Revisar ScotiaPesos",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Ver beneficios y promociones",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             }
@@ -590,19 +590,19 @@
     {
       "title": "Créditos",
       "icon": "/src/assets/bills.svg",
-      "route": "#",
+      "route": {},
       "badge": null,
       "elements": [
         {
           "title": "Tus Créditos",
           "icon": "",
-          "route": "",
+          "route": {},
           "badge": null,
           "elements": [
             {
               "title": "Ver resumen de deudas",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             }
@@ -611,20 +611,20 @@
         {
           "title": "Crédito de Consumo",
           "icon": "",
-          "route": "",
+          "route": {},
           "badge": null,
           "elements": [
             {
               "title": "Pagar cuota",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Simular y obtener crédito",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             }
@@ -633,27 +633,27 @@
         {
           "title": "Crédito Hipotecario",
           "icon": "",
-          "route": "",
+          "route": {},
           "badge": null,
           "elements": [
             {
               "title": "Pagar dividendo",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Simular y obtener crédito",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Solicitar Pre-aprobar",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             }
@@ -664,19 +664,19 @@
     {
       "title": "Inversiones",
       "icon": "/src/assets/investment.svg",
-      "route": "#",
+      "route": {},
       "badge": null,
       "elements": [
         {
           "title": "Tus inversiones",
           "icon": "",
-          "route": "",
+          "route": {},
           "badge": null,
           "elements": [
             {
               "title": "Ver resumen de inversiones",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             }
@@ -685,13 +685,13 @@
         {
           "title": "Metas Financieras",
           "icon": "",
-          "route": "",
+          "route": {},
           "badge": null,
           "elements": [
             {
               "title": "Invertir en Smart NUEVO",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             }
@@ -700,27 +700,27 @@
         {
           "title": "Depósitos a Plazo",
           "icon": "",
-          "route": "",
+          "route": {},
           "badge": null,
           "elements": [
             {
               "title": "Contratar depósitos",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Consultar depósitos",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Cancelar depósitos",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             }
@@ -729,62 +729,62 @@
         {
           "title": "Fondos Mutuos",
           "icon": "",
-          "route": "",
+          "route": {},
           "badge": null,
           "elements": [
             {
               "title": "Firmar Contrato general de Fondos",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Invertir en Fondos Mutuos",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Ver Fondos Mutuos Automáticos",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Rescatar Fondos Mutuos",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Reinvertir Fondos Mutuos",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Ver saldos por cuenta",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Ver Cartolas",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Ver Certificado de Fondos Mutuos",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             }
@@ -793,13 +793,13 @@
         {
           "title": "Acciones",
           "icon": "",
-          "route": "",
+          "route": {},
           "badge": null,
           "elements": [
             {
               "title": "Ingresar a portal compra y venta",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             }
@@ -810,33 +810,33 @@
     {
       "title": "Seguros",
       "icon": "/src/assets/insurance.svg",
-      "route": "#",
+      "route": {},
       "badge": null,
       "elements": [
         {
           "title": "Tus Seguros contratados",
           "icon": "",
-          "route": "",
+          "route": {},
           "badge": null,
           "elements": [
             {
               "title": "Consultar Seguros",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Consultar Siniestros",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Denunciar Siniestro de Cesantía",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             }
@@ -845,13 +845,13 @@
         {
           "title": "Vida",
           "icon": "",
-          "route": "",
+          "route": {},
           "badge": null,
           "elements": [
             {
               "title": "Contratar Seguro Vida Now",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             }
@@ -860,20 +860,20 @@
         {
           "title": "Salud",
           "icon": "",
-          "route": "",
+          "route": {},
           "badge": null,
           "elements": [
             {
               "title": "Contratar Seguro Scotia Salud",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             },
             {
               "title": "Contratar Seguro Protección Personal",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             }
@@ -882,13 +882,13 @@
         {
           "title": "Viajes",
           "icon": "",
-          "route": "",
+          "route": {},
           "badge": null,
           "elements": [
             {
               "title": "Contratar Seguro Scotia Travel",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             }
@@ -897,13 +897,13 @@
         {
           "title": "Protección",
           "icon": "",
-          "route": "",
+          "route": {},
           "badge": null,
           "elements": [
             {
               "title": "Contratar Seguro Robo 360",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             }
@@ -912,13 +912,13 @@
         {
           "title": "Hogar",
           "icon": "",
-          "route": "",
+          "route": {},
           "badge": null,
           "elements": [
             {
               "title": "Contratar Seguro Scotiahome Flex",
               "icon": "",
-              "route": "",
+              "route": {},
               "badge": null,
               "elements": []
             }
@@ -929,14 +929,14 @@
     {
       "title": "Supermercado",
       "icon": "/src/assets/shopping.svg",
-      "route": "#",
+      "route": {},
       "badge": null,
       "elements": []
     },
     {
       "title": "Beneficios",
       "icon": "/src/assets/rewards.svg",
-      "route": "#",
+      "route": {},
       "badge": {
         "text": "NUEVO",
         "color": "#7849b8"

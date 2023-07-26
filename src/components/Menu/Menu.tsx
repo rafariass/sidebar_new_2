@@ -9,6 +9,11 @@ function Menu (): ReactElement {
   const [menu, setMenu] = useState([])
   const [shortMenu, setShortMenu] = useState(false)
 
+  const handleClick = (event: any): void => {
+    const dataToSend = { message: event, sender: 'menu-component' }
+    window.parent.postMessage(dataToSend, window.location.origin)
+  }
+
   useEffect(() => {
     const menuService = new MenuService()
     menuService.list()
@@ -26,7 +31,7 @@ function Menu (): ReactElement {
             </div>
           </li>
           {menu?.map(({ title, icon, route, badge, elements }: NavItem) => (
-            <li className='menu-item' tabIndex={1} key={title}>
+            <li className='menu-item' tabIndex={1} key={title} onClick={elements?.length === 0 ? () => handleClick(route) : undefined}>
               <div className='wrapper'>
                 <img src={icon} className='icon' alt={`Icono ${title}`} />
                 <div className='context'>
@@ -40,7 +45,7 @@ function Menu (): ReactElement {
                   <h2 className='title'>{title}</h2>
                   <ul className='sub-menu'>
                     {elements?.map(({ title, route, badge, elements }: NavItem) => (
-                      <li className='sub-menu-item' tabIndex={2} key={title}>
+                      <li className='sub-menu-item' tabIndex={2} key={title} onClick={elements?.length === 0 ? () => handleClick(route) : undefined}>
                         <div className='wrapper'>
                           <div className='context'>
                             <span className='title'>{title}</span>
@@ -51,8 +56,8 @@ function Menu (): ReactElement {
                         {elements?.length !== 0 && (
                           <div className='sub-sub-sidebar'>
                             <ul className='sub-sub-menu'>
-                              {elements?.map(({ title, route, badge }: NavItem) => (
-                                <li className='sub-sub-menu-item' tabIndex={3} key={title}>
+                              {elements?.map(({ title, route, badge, elements }: NavItem) => (
+                                <li className='sub-sub-menu-item' tabIndex={3} key={title} onClick={elements?.length === 0 ? () => handleClick(route) : undefined}>
                                   <div className='wrapper'>
                                     <div className='context'>
                                       <span className='title'>{title}</span>
