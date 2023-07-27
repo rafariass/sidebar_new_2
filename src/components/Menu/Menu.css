@@ -9,7 +9,7 @@
   --item-bg-selected-sidebar-sub-sub-menu: #d7d1eb;
 
   width: 353px;
-  height: 100%;
+  height: calc(100% - 60px);
   display: none;
   padding: 20px 0px 20px 25px;
   background-color: var(--bg-sidebar-menu);
@@ -145,9 +145,9 @@
 }
 
 /* Muestra el sub menu al hacer hover sobre un item del menu principal */
-.sidebar > .menu > .menu-item:hover > .sub-sidebar {
+/* .sidebar > .menu > .menu-item:hover > .sub-sidebar {
   display: block;
-}
+} */
 
 .sidebar > .menu > .menu-item > .sub-sidebar > .wrapper {
   display: flex;
@@ -338,30 +338,41 @@
 
 .menu-setIcons {
   width: 100%;
+  height: 60px;
   position: absolute;
   border-bottom: 1px solid #d6d6d6;
+  padding-right: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-
-.icon-hamburger {
+.menu-setIcons > :where(.icon-hamburger, .icon-warning, .icon-user, .icon-cart) {
   width: 60px;
   height: 60px;
-  padding: 15px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 5px;
-  background-color: #ec111a;
   cursor: pointer;
 }
 
-.icon-hamburger > .line {
+.menu-setIcons > .icon-hamburger {
+  background-color: #ec111a;
+  padding: 15px;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.menu-setIcons > .icon-hamburger > .line {
   width: 100%;
   height: 3px;
   border-radius: 3px;
   background-color: #ffffff;
 }
+
+
+
+
 
 .menu-open {
   display: unset;
@@ -370,20 +381,23 @@
 .back-arrow-sub-menu {
   width: 18px;
   height: 18px;
+  cursor: pointer;
 }
 
 .close-sub-menu {
   width: 12px;
   height: 12px;
+  cursor: pointer;
 }
 
 @media (min-width: 992px) {
-  .icon-hamburger {
+  .menu-setIcons {
     display: none;
   }
 
   .sidebar {
     width: 294px;
+    height: 100%;
     display: unset;
     padding: 20px 0px 20px 60px;
     top: 0;

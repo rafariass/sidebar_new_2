@@ -3,6 +3,9 @@ import MenuService from '../../services/MenuService'
 import arrow_left from '../../assets/arrow_left.svg'
 import close_default from '../../assets/close_default.svg'
 import arrow_right from '../../assets/arrow_right.svg'
+import iconWarning from '../../assets/warning.svg'
+import iconUser from '../../assets/user.svg'
+import iconCart from '../../assets/cart.svg'
 import { MutableRefObject, ReactElement, useEffect, useState } from 'react'
 import { NavItem } from '../../interfaces'
 
@@ -51,6 +54,15 @@ function Menu (): ReactElement {
           <div className='line' />
           <div className='line' />
           <div className='line' />
+        </div>
+        <div className='icon-warning'>
+          <img src={iconWarning} alt='' />
+        </div>
+        <div className='icon-user'>
+          <img src={iconUser} alt='' />
+        </div>
+        <div className='icon-cart'>
+          <img src={iconCart} alt='' />
         </div>
       </div>
       <div className={`sidebar ${shortMenu ? 'close' : ''} ${hamburger ? 'menu-open' : ''}`}>
