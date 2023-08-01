@@ -56,13 +56,13 @@ function Menu (): ReactElement {
           <div className='line' />
         </div>
         <div className='icon-warning'>
-          <img src={iconWarning} alt='' />
+          <img src={iconWarning} alt='icon warning' />
         </div>
         <div className='icon-user'>
-          <img src={iconUser} alt='' />
+          <img src={iconUser} alt='icon user' />
         </div>
         <div className='icon-cart'>
-          <img src={iconCart} alt='' />
+          <img src={iconCart} alt='icon cart' />
         </div>
       </div>
       <div className={`sidebar ${shortMenu ? 'close' : ''} ${hamburger ? 'menu-open' : ''}`}>
